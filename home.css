@@ -1,0 +1,479 @@
+body{
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: white; /* Background color of the navbar */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    font-family: arial;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.navbar li {
+    float: left; /* Display menu items horizontally */
+}
+
+.navbar li a {
+    display: block;
+    color: black; /* Default color of menu items */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.navbar li a:hover {
+    color: #f9cd46;
+}
+
+.navbar li.active a {
+    color: #fcd876;
+}
+.nav{
+    position: relative;
+}
+.nav::after{
+    content: "";
+    position: absolute;
+    background-color: #fcd876;
+    height: 3px;
+    width:0;
+    left:0;
+    bottom:-1px;
+    transition: 0.3s;
+}
+.nav:hover::after{
+    width:100%;
+}
+.week{
+    width:594px;
+    margin-top: -19px;
+}
+.container {
+    background-color: #fcd876;
+    overflow: hidden; /* Clear the float */
+    max-width: 100%; /* Set the container width to 100% */
+    height: 300px;
+}
+
+.content {
+    display: flex; /* Use flexbox to align items side by side */
+    padding: 20px; /* Add padding to the content */
+}
+
+.text {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px; /* Add some space between text and image */
+    padding-left: 60px;
+    margin-top: 22px;
+    font-family: poppins;
+}
+.text p{
+    font-size: 20px;
+    font-family: garamond !important;
+    margin-top: 20px;
+}
+
+.image img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+.image {
+    position: absolute;
+    right:0;
+}
+.buttons{
+    margin-top: 55px;
+}
+.pineapple{
+    width:250px;
+    padding: 10px;
+    /*border: 10px;*/
+    border-radius: 17px;
+    background-color: #f6cb52;
+    letter-spacing: 0.05em;
+    position: relative;
+    overflow: hidden; /* Ensure the box-shadow stays within the button bounds */
+    transition: box-shadow 0.3s ease-in-out;
+}
+/*
+.pineapple:hover {
+    box-shadow: 0px 0px 15px  #ffb61a;
+}*/
+.pineapple:hover {
+    box-shadow: 0px 0px 15px  #ffb61a; /* Apply the box-shadow on hover */
+}
+
+/*SECOND DIV*/
+.second-div{
+    margin-top: 45px;
+    margin-left: 62.2px;
+    font-family: arial;
+    letter-spacing: 0.1em;
+}
+.latest{
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .latest >div{
+    flex-basis: calc(33.33% - 10px);
+  }
+
+
+
+.first{
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+.fruitsalad{
+    height: auto;
+    width: 77%;
+    border-radius: 10px;
+}
+
+.article h3{
+    margin-top: 7px;
+    font-size: 23px;
+    margin-left: -98px;
+    font-family: verdana;
+    font-weight: bold;
+}
+.article p{
+    margin-left: 50px;
+    color: gray
+}
+
+.author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.author-info .author {
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.author-info .date-read {
+    display: flex;
+    align-items: center;
+}
+
+.author-info .date-read .read-time {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.bookmark {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+/*SECOND DIV*/
+.snd{
+    background-color: white;
+    /*position: relative;
+    display: flex;
+    justify-content: space-between;*/
+}
+#second-item{
+    margin-top:23px
+}
+
+.item {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    margin-top: 8px;
+}
+
+.item img {
+    width: 27%; /* Adjust as needed */
+    border-radius: 10px; /* Apply border-radius to image */
+    margin-right: 45px; /* Add some space between image and details */
+}
+
+.item #kiwi{
+    width:29.3%;
+}
+
+.details {
+    flex: 1; /* Take up remaining space */
+}
+
+.details h3 {
+    margin-top: -13px; /* Remove default margin */
+    font-size: 18px; /* Adjust as needed */
+    font-family: verdana;
+    font-weight: bold;
+}
+.details #move{
+    margin-left: 0.2px;
+}
+
+.details p {
+    margin: 0; /* Remove default margin */
+    font-size: 17px; /* Adjust as needed */
+}
+
+.details p span {
+    display: inline-flex; /* Ensure the inner elements are in a flex container */
+    align-items: center; /* Align items vertically */
+}
+
+.details p span i {
+    margin-left: 29px; /* Adjust as needed */
+}
+
+/*third div*/
+.thd{
+    background-color: white;
+}
+#snd-container{
+    margin-top: 19px;
+}
+#thd-container{
+    margin-top: 19px;
+}
+
+.fruit-container{
+    display: flex;
+}
+
+.banana{
+    border-radius: 7px;
+}
+
+.fruit-descrip{
+    font-family: candara;
+    margin-top: 2px;
+    padding: 3px;
+    height:87px;
+    width: 83%;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    background: #ebc642;
+    overflow: hidden; 
+}
+.fruit-descrip h4{
+    font-weight: bold;
+}
+.ban-descrip{
+    font-size: 18px;
+}
+#blue{
+    background: #5e89b1;
+}
+#water{
+    background: #bd2c21;
+}
+
+
+/*INSIGHTS*/
+.third-title{
+    margin-top: 45px;
+    margin-left: 62.2px;
+    font-family: arial;
+    letter-spacing: 0.1em;
+}
+.third-div {
+    display: flex;
+    margin-top:30px ;
+}
+
+.left {
+    flex: 1;
+    margin-left: 62.2px;
+}
+/*banner like image, name to be changed*/
+.garden-img{
+    width:790px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.garden-text{
+    margin-top: 8px;
+}
+
+.skin-img{
+    width:370px;
+    height: 281px;
+    border-radius: 10% 10% 10% 10%;
+}
+.tdiv-title{
+    font-family: poppins;
+}
+
+.tdiv-desc{
+    font-family: garamond;
+    font-size: 20px;
+}
+.tdiv-btn{
+    width:250px;
+    padding: 10px;
+    /*border: 10px;*/
+    border-radius: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.garden-btn{
+    background-color: #fd8a03;
+}
+.skin-btn{
+    background-color: #51867b;
+}
+
+.right {
+    flex: 1;
+    margin-top: -27px
+}
+.skin-text{
+    margin-top: 15px;
+    padding-right: 10px; /* Add some space between text and image */
+    padding-left: 30px;
+}
+
+/*LAST PART*/
+.last-part{
+    margin-top: 50px;
+    display: flex;
+}
+.far-left,
+.middle,
+.far-right {
+    flex: 1;
+}
+
+
+.far-left{
+    margin-left: 62.2px;
+}
+
+
+.cont-title{
+    font-family: arial;
+    letter-spacing: 0.1em;
+}
+
+
+.social-icons {
+    display: flex;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #f2bd3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.circle i {
+    color: black;
+}
+
+.subscribe-form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 19px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: garamond;
+    font-size: 20px;
+}
+
+.sub-btn{
+    margin-top: 20px;
+}
+.submit-btn{
+    width:250px;
+    padding: 10px;
+    /*border: 10px;*/
+    border-radius: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f2bd3d;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+.mySlides {
+    display: none; /* Hide all slides by default */
+}
+
+.mySlides:first-child {
+    display: block; /* Display the first slide */
+}
+.mySlides img{
+    height:410px
+}
+
+.right-p p{
+    font-family: garamond;
+    font-size: 20px;
+    margin-top: 55px;
+}
+.copyright {
+    text-align: right;
+    margin-top: 30px; /* Adjust as needed */
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.line {
+    width: 100%;
+    height: 5px; /* Adjust as needed */
+    margin-top: 30px;
+    background-color: yellow; /* Initial color */
+    animation: changeColor 6s infinite;
+}
+@keyframes changeColor {
+    0% {
+        background-color: yellow;
+    }
+    33% {
+        background-color: red;
+    }
+    66% {
+        background-color: green;
+    }
+    100% {
+        background-color: yellow; /* Return to initial color */
+    }
+}
+
+/*SLIDESHOW TO CHANGE COLOR
+.change{
+    background-color: green;
+    width: 100%;
+    margin-left: 62.2px;
+    height:100px;
+}*/
