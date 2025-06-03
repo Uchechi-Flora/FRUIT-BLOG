@@ -232,6 +232,9 @@ body{
 .details #move{
     margin-left: 0.2px;
 }
+.details #mover{
+    margin-left: 0.2px;
+}
 
 .details p {
     margin: 0; /* Remove default margin */
