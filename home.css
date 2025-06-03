@@ -263,7 +263,7 @@ body{
 
 .fruit-descrip {
     font-family: Candara;
-    padding: 5px 15px;
+    padding: 5px 10px;
     background: #ebc642;
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
@@ -278,7 +278,7 @@ body{
 }
 .ban-descrip{
     font-size: 18px;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 #blue{
     background: #5e89b1;
