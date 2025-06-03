@@ -231,10 +231,7 @@ body{
     font-weight: bold;
 }
 .details #move{
-    margin-left: -2px;
-}
-.details #mover{
-    margin-left: 0.2px;
+    margin-left: -10px;
 }
 
 .details p {
