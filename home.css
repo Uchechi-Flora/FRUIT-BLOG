@@ -263,7 +263,7 @@ body{
 
 .fruit-descrip{
     font-family: candara;
-    margin-top: 2px;
+    margin-top: -2px;
     padding: 3px;
     height:87px;
     width: 83%;
