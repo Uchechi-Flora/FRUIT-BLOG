@@ -275,11 +275,8 @@ body{
 .fruit-descrip h4{
     font-weight: bold;
 }
-.fruit-descrip p {
-      margin-top: -5px;
-}
 .ban-descrip{
-    font-size: 16px;
+    font-size: 18px;
     margin-top: -10px;
 }
 #blue{
