@@ -276,10 +276,11 @@ body{
     font-weight: bold;
 }
 .fruit-descrip p {
-      margin-top: -15px;
+      margin-top: -5px;
 }
 .ban-descrip{
     font-size: 16px;
+    margin-top: -10px;
 }
 #blue{
     background: #5e89b1;
