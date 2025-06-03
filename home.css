@@ -262,8 +262,8 @@ body{
     font-family: candara;
     margin-top: 2px;
     padding: 3px;
-    height:87px;
-    width: 83%;
+    /*height:87px;*/
+    width: 81%;
     border-top-right-radius: 27px;
     border-bottom-right-radius: 27px;
     background: #ebc642;
@@ -271,6 +271,11 @@ body{
 }
 .fruit-descrip h4{
     font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+.fruit-descrip p {
+    margin: 5px 0 0;
 }
 .ban-descrip{
     font-size: 18px;
