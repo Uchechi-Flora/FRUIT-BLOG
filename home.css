@@ -221,6 +221,7 @@ body{
 
 .details {
     flex: 1; /* Take up remaining space */
+    margin-left: -2px;
 }
 
 .details h3 {
